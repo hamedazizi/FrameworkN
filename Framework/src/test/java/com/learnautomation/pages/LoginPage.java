@@ -12,13 +12,12 @@ public class LoginPage {
 	WebDriver driver;
 	
 	
-	//this is new commit from Hamed 
+	//this is new commit from Hamed
 	public LoginPage(WebDriver ldriver) {// this constructor help us initialize webdriver
 		
 		this.driver=ldriver;
 		
 	}
-
 
 	@FindBy(name="username") WebElement uname;
 	
@@ -38,7 +37,6 @@ public class LoginPage {
 		} catch (InterruptedException e) {
 			
 		}
-		
 		uname.sendKeys(usernameApplication);
 		
 		pass.sendKeys(passwordApplication);
@@ -47,7 +45,5 @@ public class LoginPage {
 		
 		loginButton.click();
 
-		
-		
 	}
 }
