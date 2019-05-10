@@ -12,7 +12,6 @@ public class LoginPage {
 	WebDriver driver;
 	
 	
-	//this is new commit from Hamed
 	public LoginPage(WebDriver ldriver) {// this constructor help us initialize webdriver
 		
 		this.driver=ldriver;
